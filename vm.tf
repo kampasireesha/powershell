@@ -15,8 +15,8 @@ provider "azurerm" {
 }
 terraform {
   backend "azurerm" {
-    resource_group_name  = "StorageAccount-ResourceGroup"
-    storage_account_name = "abcd1234"
+    resource_group_name  = "tera-rg"
+    storage_account_name = "terastg191823"
     container_name       = "tfstate"
     key                  = "prod.terraform.tfstate"
   }
